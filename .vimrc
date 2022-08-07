@@ -49,16 +49,15 @@ let g:gruvbox_contrast_dark="hard"
 " Close the nerdtree when open a file
 let NERDTreeQuitOnOpen=1
 
+" ============== SHORTCUTS ============
 let mapleader=" "
 
 " Search with space + two characters
 nmap <Leader>s <Plug>(easymotion-s2)
 
-" Open NerdTree with space + enter
+" Open NerdTree with space + nt
 nmap <Leader>nt :NERDTreeFind<CR>
 
-
-" ============== SHORTCUTS ============
 nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR>
 imap jk <Esc>
