@@ -58,6 +58,10 @@ nmap <Leader>s <Plug>(easymotion-s2)
 " Open NerdTree with space + nt
 nmap <Leader>nt :NERDTreeFind<CR>
 
+nmap <Leader>fs :Files<CR>
+
+nmap <leader>gs :CocSearch 
+
 nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR>
 imap jk <Esc>
