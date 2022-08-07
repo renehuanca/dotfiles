@@ -36,6 +36,10 @@ Plug 'christoomey/vim-tmux-navigator'
 " Install autocompletes
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" Finder files
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
 call plug#end()
 
 " Theme configuration
