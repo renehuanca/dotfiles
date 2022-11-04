@@ -46,8 +46,8 @@ call plug#end()
 colorscheme gruvbox
 let g:gruvbox_contrast_dark="hard"
 
-" Close the nerdtree when open a file
 let NERDTreeQuitOnOpen=1
+let NERDTreeShowHidden=1
 
 " ============== SHORTCUTS ============
 let mapleader=" "
