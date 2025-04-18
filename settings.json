@@ -58,7 +58,7 @@
     },
     // to navigate to explorer
     {
-      "before": ["<leader>", "n", "t"],
+      "before": ["<leader>", "e"],
       "commands": ["workbench.view.explorer"]
     },
     // to comment
