@@ -1,5 +1,5 @@
 {
-  "editor.fontFamily": " 'Geist mono', 'Cascadia code', 'dank mono', consolas, 'Courier New', monospace",
+  "editor.fontFamily": " 'Iosevka Nerd Font Mono', 'Geist mono', 'Cascadia code', 'dank mono', consolas, 'Courier New', monospace",
   "editor.lineHeight": 24,
   "editor.cursorBlinking": "expand",
   "editor.bracketPairColorization.enabled": true,
