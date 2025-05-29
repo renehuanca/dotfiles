@@ -37,6 +37,15 @@
       "commands": [":nohl"]
     }
   ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "c"],
+      "commands": [
+        "editor.action.commentLine",
+      ]
+    },
+    // For identation is >
+  ],
   "vim.leader": "<space>",
   "vim.handleKeys": {
     "<C-a>": false,
@@ -68,6 +77,7 @@
       "when": "editorTextFocus && !editorReadonly"
     }
   ],
+  
   "explorer.confirmDelete": false,
   "workbench.productIconTheme": "fluent-icons",
   "editor.tabSize": 2,
